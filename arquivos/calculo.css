@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 h1{
     margin: 0 10px;
@@ -120,7 +120,7 @@ main{
     color: white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     body{
         display: flex;
         flex-direction: column;
@@ -131,7 +131,7 @@ main{
         margin-bottom: 50px;
     }
      main{
-        max-width: 90vw;
+        max-width: 80vw;
         max-height: 400px;
      }
 }
