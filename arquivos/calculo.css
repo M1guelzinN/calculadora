@@ -31,7 +31,7 @@ h1{
 }
 main{
     max-width: 50vw; 
-    min-width: 400px; 
+    min-width: 300px; 
     height: 60vh;
     display: flex;
     flex-direction: column;
@@ -122,19 +122,27 @@ main{
 
 @media (max-width: 800px) {
     body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        position: relative;
+        width: 100vw;
+        height: 100vh;
     }
     h1{
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        transform: translateX(-50%);
+
         font-size: 1.5em;
         padding-right: 60px;
         margin-bottom: 50px;
     }
      main{
-        
+        position: absolute;
+        left: 50%;
+        top: 50%;
         max-width: 80%;
         max-height: 400px;
+        transform: translate(-50%,-50%);
      }
      .mostrar{
          width: 80%;
