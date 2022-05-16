@@ -4,39 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<!-- ===========================google icons==================================== -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="arquivos/style.css">
+<!-- =============================== css ======================================= -->
+    <link rel="stylesheet" href="arquivos/calculo.css">
     <title>Calculadora</title>
 </head>
 <body>
     <h1>Calculadora usando Js</h1>
-
     <main class="calculadora">
-        <section class="mostrar">
-            <span class="resultado"></span>
-        </section>
 
+        <section class="mostrar">
+            <div class="resultado"></div>
+        </section>
         <div class="calculos">
-            <div class="junt">
-                <section class="limpar" onclick="clean()">Ac</section>
-                <section class="num">
-                    <div class="v0" onclick="valores(0)">0</div>
-                    <div class="v1" onclick="valores(1)">1</div>
-                    <div class="v2" onclick="valores(2)">2</div>
-                    <div class="v3" onclick="valores(3)">3</div>
-                    <div class="v4" onclick="valores(4)">4</div>
-                    <div class="v5" onclick="valores(5)">5</div>
-                    <div class="v6" onclick="valores(6)">6</div>
-                    <div class="v7" onclick="valores(7)">7</div>
-                    <div class="v8" onclick="valores(8)">8</div>
-                    <div class="pin" onclick="valores('.')">.</div>
-                    <div class="v9" onclick="valores('9')">9</div>
-                    <div onclick="apaga()"><span class="material-symbols-outlined">backspace</span></div>
+            <div class="juncao">
+                <section class="limpar" onclick="clean()">C</section>
+
+                <section class="numeros">
+                    <div onclick="valores(0)">0</div>
+                    <div onclick="valores(1)">1</div>
+                    <div onclick="valores(2)">2</div>
+                    <div onclick="valores(3)">3</div>
+                    <div onclick="valores(4)">4</div>
+                    <div onclick="valores(5)">5</div>
+                    <div onclick="valores(6)">6</div>
+                    <div onclick="valores(7)">7</div>
+                    <div onclick="valores(8)">8</div>
+                    <div onclick="valores('.')">.</div>
+                    <div onclick="valores('9')">9</div>
+                    <div onclick="apaga()">
+                        <span class="material-symbols-outlined">backspace</span>
+                    </div>
                 </section>
             </div>
+
             <section class="operadores">
-                <div  onclick="valores('+')">+</div>
+                <div onclick="valores('+')">+</div>
                 <div onclick="valores('-')">-</div>
                 <div onclick="valores('*')">x</div>
                 <div onclick="valores('/')">÷</div>

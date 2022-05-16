@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --tabelatransparent: #0000002c;
+    --colorRes: #ffffff51;
+    --colornum: linear-gradient(-125deg, rgba(254, 0, 237, 0.367), rgba(0, 242, 255, 0.56));
+}
+body{
+    background: linear-gradient(45deg, rgb(161, 0, 150), rgb(2, 221, 232));
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+h1{
+    margin: 0 10px;
+    font-family: "Montserrat";
+    font-size: 2em;
+    color: white;
+}
+main{
+    background: var(--tabelatransparent);
+    max-width: 50vw; 
+    min-width: 400px; 
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.mostrar{
+    background: var(--tabelatransparent);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 120px;
+    border-radius: 20px 20px 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultado{
+    background: var(--colorRes);
+    width: 85%;
+    height: 30%;
+    text-align: right;
+    padding: 25px;
+    margin-top: 10px;
+
+    font-family: "Montserrat";
+    font-size: 1.5em;
+    color: white;
+    border-radius: 10px;
+
+}
+.calculos{
+    background: var(--tabelatransparent);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 20px 20px;
+    padding: 0 20px;
+}
+.juncao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.limpar{
+    background: var(--colornum);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
+    font-family: "Montserrat";
+    font-size: 1.5em;
+    color: white;
+}
+.numeros{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    flex-wrap: wrap;
+}
+.numeros > div {
+    background: var(--colornum);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
+    font-family: "Montserrat";
+    font-size: 1.5em;
+    color: white;
+    
+}
+.operadores{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.operadores > div {
+    background: var(--colornum);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
+    font-family: "Montserrat";
+    font-size: 1.5em;
+    color: white;
+}
