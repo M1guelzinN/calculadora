@@ -1,2 +1,5 @@
 # calculadora
- Calculadora usando operadores do Javascript
+
+ Calculadora com operadores simples usando Javascript.
+
+a href="arquivos/img-readme/calculadira-md.jpg"
