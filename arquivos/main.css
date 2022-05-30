@@ -8,8 +8,8 @@
 }
 :root{
     --tabelatransparent: #00000041;
-    --colorRes: #000000ba;
-    --colornum: linear-gradient(-125deg, rgba(0, 0, 0, 0), rgba(232, 109, 2));
+    --colorRes: #2323236f;
+    --colornum: linear-gradient(-125deg, rgba(0, 0, 0, 0), rgb(204, 95, 0));
 }
 
 body{  
@@ -17,10 +17,9 @@ body{
     justify-content: space-evenly;
     align-items: center;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 150vh;
     
-    background: linear-gradient(45deg, rgb(26, 25, 25), rgb(232, 109, 2));
-    background-size: cover ;
+    background: linear-gradient(45deg, rgb(26, 25, 25), rgb(219, 110, 14));
     background-repeat: no-repeat;
 }
 h1{
@@ -138,7 +137,8 @@ main{
         left: 50%;
         top: 5%;
         transform: translateX(-50%);
-        font-size: 1.5em;
+        font-size: 1em;
+        width: 100%;
     }
      main{
         position: absolute;
