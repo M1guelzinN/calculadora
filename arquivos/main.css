@@ -17,7 +17,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     width: 100vw;
-    min-height: 150vh;
+    min-height: 100vh;
     
     background: linear-gradient(45deg, rgb(26, 25, 25), rgb(219, 110, 14));
     background-repeat: no-repeat;
@@ -156,6 +156,9 @@ main{
 }
 
 @media (max-height: 500px) {
+    body{
+        height:120vh;
+    }
     main{
         top: 250px;
     }
