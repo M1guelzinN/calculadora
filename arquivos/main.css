@@ -5,11 +5,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;
 }
 :root{
-    --tabelatransparent: #00000041;
-    --colorRes: #2323236f;
-    --colornum: linear-gradient(-125deg, rgba(0, 0, 0, 0), rgb(204, 95, 0));
+    --tabelatransparent: #0000003b;
+    --colorRes: #0f0f0fa2;
+    --colorbtn: rgba(118, 223, 255, 0.418);
+    --colorbg: linear-gradient(45deg, rgb(12, 12, 12), rgb(67, 223, 243));
 }
 
 body{  
@@ -19,7 +22,7 @@ body{
     width: 100vw;
     max-height: 130vh;
     min-height: 100vh;
-    background: linear-gradient(45deg, rgb(26, 25, 25), rgb(219, 110, 14));
+    background: var(--colorbg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -27,7 +30,8 @@ h1{
     margin: 10px 0;
 
     text-align: center;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     font-size: 2em;
     color: white;
 }
@@ -36,8 +40,8 @@ main{
     flex-direction: column;
     flex-wrap: nowrap;
 
-    max-width: 50vw; 
-    min-width: 300px;
+    max-width: 55vw; 
+    min-width: 350px;
 }
 .mostrar{
     display: flex;
@@ -80,14 +84,16 @@ main{
     width: 100%;
 }
 .limpar{
-    background: var(--colornum);
-    padding: 5px;
+    background: var(--colorbtn);
+    padding: 10px;
     margin: 5px ;
     
     text-align: center;
     font-family: "Montserrat";
     font-size: 1.5em;
     color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,.3);
 }
 .numeros{
     display: grid;
@@ -96,15 +102,16 @@ main{
     width: 100%;
 }
 .numeros > div {
-    background: var(--colornum);
-    padding: 5px;
+    background: var(--colorbtn);
+    padding: 10px;
     margin: 5px;
     
     text-align: center;
     font-family: "Montserrat";
     font-size: 1.5em;
-    color: white;
-    
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,.3);
 }
 .operadores{
     display: flex;
@@ -113,14 +120,16 @@ main{
     width: 20%;
 }
 .operadores > div {
-    background: var(--colornum);
-    padding: 5px;
+    background: var(--colorbtn);
+    padding: 10px;
     margin: 5px;
     
     text-align: center;
     font-family: "Montserrat";
     font-size: 1.5em;
     color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,.3);
 }
 
 

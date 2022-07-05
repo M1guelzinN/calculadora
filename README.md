@@ -2,7 +2,7 @@
  <h1>Calculadora</h1>
  <p>Calculadora simples feita em Javascript<br> 
   <a href='https://m1guelzinn.github.io/calculadora/'>Clique aqui para ver a página online</a></p>
- <img width='60%' src='itens/imgs/readmeImg.jpg'>
+ <img width='60%' src='arquivos/img-readme/readmeImg.jpg'>
   <div>
    <h2> 🛠 Tecnologias usadas<h2>
 
